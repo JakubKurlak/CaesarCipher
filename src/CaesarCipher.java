@@ -1,23 +1,26 @@
+import java.util.Scanner;
+
 public class CaesarCipher {
     public static void main(String[] args) {
-        String wynik = upperCase("Mdnxe", 3);
-        System.out.println(wynik);
-    }
+        EncryptionClass encryptionClass = new EncryptionClass();
+        DecryptionClass decryptionClass = new DecryptionClass();
 
-    static String upperCase(String str, int index) {
-        char[] tablica = new char[str.length()];
-        char[] tablica2 = new char[str.length()];
-        String upcase = "";
+//        Scanner scanner = new Scanner(System.in);
+//        String sentenceToBeEncodedFromConsole = scanner.next();
+//        int shiftFromConsole = Integer.parseInt(scanner.next());
 
-        for (int i = 0; i < str.length(); i++) {
-            tablica[i] = str.charAt(i);
-            int k = tablica[i] - index;
-            tablica2[i]= (char) k;
-        }
-        for (int i = 0; i < str.length(); i++) {
-            String zmiennaPomocnicza = Character.toString(tablica2[i]);
-            upcase += zmiennaPomocnicza;
-        }
-        return upcase;
+//        Please write sentenceToBeEncoded in English
+        String sentenceToBeEncoded = "AbcDE fgHIJ klMnO pqRst UWyxz";
+//        Please write shift less than 26
+        int shift = 3;
+
+        System.out.println(sentenceToBeEncoded);
+
+        String encryptedSentence = encryptionClass.encryptionMethod(sentenceToBeEncoded, shift);
+        System.out.println(encryptedSentence);
+
+        String decryptedSentence = decryptionClass.decryptionMethod(encryptedSentence,shift);
+//        String decryptedSentence = "Some decrypted sentences";
+        System.out.println(decryptedSentence);
     }
 }
