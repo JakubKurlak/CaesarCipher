@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba25dd41-a315-480d-97f1-26065e54e124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DecryptionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EncryptionClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaesarCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587229240078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="translate the code into English&#10;add an encryption method&#10;add a decryption method">
+      <created>1587234238770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587234238770</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,13 +100,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code" />
+    <MESSAGE value="translate the code into English&#10;add an encryption method&#10;add a decryption method" />
+    <option name="LAST_COMMIT_MESSAGE" value="translate the code into English&#10;add an encryption method&#10;add a decryption method" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1587229238712">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1587234236957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587229238712" />
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587234236957" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1587228718259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
