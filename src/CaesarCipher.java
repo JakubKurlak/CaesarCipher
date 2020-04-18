@@ -20,7 +20,7 @@ public class CaesarCipher {
         System.out.println(encryptedSentence);
 
         String decryptedSentence = decryptionClass.decryptionMethod(encryptedSentence,shift);
-//        String decryptedSentence = "Some decrypted sentences";
+//        String decryptedSentence = "Example decrypted sentences";
         System.out.println(decryptedSentence);
     }
 }
